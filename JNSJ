@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/13gxM2JJ"))()
+local Library = loadstring(game:HttpGet("pastebin.com/raw/vff1bQ9F"))()
 local Mobile = Library.CreateLib("JnshtsssHub", "Midnight")
 
 local Tab = Mobile:NewTab("HulkXHub")
@@ -81,6 +81,6 @@ end)
 local Tab = Mobile:NewTab("PutayA")
 local PutayASection = Tab:NewSection("PutayA")
 PutayASection:NewButton("FlyBitcons", "Farming", function()
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Putaya/HITBOXKAK/main/PutayaFree"), true))()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Putaya/HITBOXKAK/main/PutayaFree"))()
     print("Clicked")
 end)
