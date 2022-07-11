@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Mobile = Library.CreateLib("JnshtsssHub", "BloodTheme")
+local Mobile = Library.CreateLib("JnshtsssHub", "Midnight")
 
 local Tab = Mobile:NewTab("HulkXHub")
 local HulkXHubSection = Tab:NewSection("HulkXHub")
@@ -19,6 +19,13 @@ local Tab = Mobile:NewTab("ThunderZHub")
 local ThunderZHubSection = Tab:NewSection("ThunderZHub")
 ThunderZHubSection:NewButton("AutoFarm", "Farming", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
+    print("Clicked")
+end)
+
+local Tab = Mobile:NewTab("2xHub")
+local 2xHubSection = Tab:NewSection("2xHub")
+2xHubSection:NewButton("AutoFarm", "Farming", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/armch063/2xHub-/main/README.md"))()
     print("Clicked")
 end)
 
